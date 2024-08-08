@@ -1,0 +1,21 @@
+<div class="video-wrapper">
+    <iframe width="560" height="315" src="https://youtube.com/embed/fX_xGvMsHdU?si=AFM4PVKqBVkcpW-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+<style>
+    .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 177.78%; /* 16:9 aspect ratio (100 / 9 * 16) */
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
